@@ -10,9 +10,9 @@
     <string name="posts">Entradas</string>
     <string name="num_posts">4219</string>
     <string name="followers">Seguidores</string>
-    <string name="titulo">Acerca de Kristen</string>
+    <string name="titulo">Acerca de Kris</string>
     <string name="cuerpo">
-    Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Lorem ipsum, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </string>
     <string name="background">background</string>
 </resources>
