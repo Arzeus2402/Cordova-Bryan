@@ -34,10 +34,9 @@
         android:src="@drawable/image_profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintVertical_bias="0.265"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
 
     <TextView
@@ -188,5 +187,15 @@
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="@+id/textView10"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="729dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="28dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
