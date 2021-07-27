@@ -87,13 +87,13 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="20dp"
         android:text="@string/num_posts"
         android:textColor="@color/blue"
         android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/divider6"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.663"
         app:layout_constraintStart_toEndOf="@+id/divider5"
         app:layout_constraintTop_toTopOf="@+id/divider4" />
 
@@ -175,10 +175,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.528" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
         android:id="@+id/textView12"
@@ -198,6 +198,7 @@
         android:layout_width="1dp"
         android:layout_height="409dp"
         android:background="?android:attr/listDivider"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"
@@ -224,6 +225,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
         android:background="?android:attr/listDivider"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/shapeableImageView"
         app:layout_constraintHorizontal_bias="0.0"
@@ -238,6 +240,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:background="?android:attr/listDivider"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/shapeableImageView"
         app:layout_constraintHorizontal_bias="0.047"
@@ -250,6 +253,7 @@
         android:layout_width="1dp"
         android:layout_height="409dp"
         android:background="?android:attr/listDivider"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/shapeableImageView"
         app:layout_constraintHorizontal_bias="0.733"
